@@ -121,8 +121,8 @@
                      {:output-to "target/test.js"
                       :main "clojure-in-production.doo-runner"
                       :optimizations :whitespace
-                      :pretty-print true}}}}
+                      :pretty-print true}}}}}
                   
-                  }
+                  
    :profiles/dev {}
    :profiles/test {}})

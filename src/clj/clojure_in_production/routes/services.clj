@@ -3,6 +3,8 @@
             [compojure.api.sweet :refer :all]
             [schema.core :as s]))
 
+(defn get-enteries [] {:message "second entry"})
+
 (defapi service-routes
   {:swagger {:ui "/swagger-ui"
              :spec "/swagger.json"
@@ -21,7 +23,7 @@
     
     (GET "/enteries" []
       :summary      "all guestbook entries"
-      (ok {:message "first entry"}))
+      (ok (get-enteries)))
 
     (POST "/minus" []
       :return      Long
