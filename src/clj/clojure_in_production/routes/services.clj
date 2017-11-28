@@ -21,7 +21,7 @@
     
     (GET "/enteries" []
       :summary      "all guestbook entries"
-      (ok ({:message "first entry"})))
+      (ok {:message "first entry"}))
 
     (POST "/minus" []
       :return      Long
