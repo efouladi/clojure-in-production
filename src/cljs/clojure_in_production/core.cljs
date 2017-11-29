@@ -9,39 +9,39 @@
             [ajax.core :refer [GET POST]])
   (:import goog.History))
 
-(defn nav-link [uri title page collapsed?]
-  [:li.nav-item
-   {:class (when (= page (session/get :page)) "active")}
-   [:a.nav-link
-    {:href uri
-     :on-click #(reset! collapsed? true)} title]])
+(def entries (r/atom []))
 
-(defn navbar []
-  (let [collapsed? (r/atom true)]
-    (fn []
-      [:nav.navbar.navbar-dark.bg-primary
-       [:button.navbar-toggler.hidden-sm-up
-        {:on-click #(swap! collapsed? not)} "☰"]
-       [:div.collapse.navbar-toggleable-xs
-        (when-not @collapsed? {:class "in"})
-        [:a.navbar-brand {:href "#/"} "clojure-in-production"]
-        [:ul.nav.navbar-nav
-         [nav-link "#/" "Home" :home collapsed?]
-         [nav-link "#/about" "About" :about collapsed?]]]])))
+(defn get-entries [] (GET "/api/entries" {:handler #(reset! entries %)}))
+
+(defn post-entry [m] (POST "/api/post" {:params {:message m :user (session/get :user)}}))
+
+(defn post-message [m]
+    [:div.form-inline 
+      [:div.form-group
+      [:input.form-control {:type "text" 
+        :placeholder "Enter a message"
+        :value @m
+        :on-change #(reset! m (-> % .-target .-value))}] 
+      [:button {:class "btn btn-primary" :on-click #(post-entry @m)} "Post"]]])
+ 
+(defn show-entry [entry]
+  [:li (:message entry) " - " (:user entry) " - " (:timestamp entry)])    
+
+(defn home-page []
+  (let [m (r/atom "")][:div.container
+      [:div.row [:h2 "Welcome " (session/get :user)]]
+      [:div.row [post-message m]]
+      [:div.row [:button {:class "btn btn-primary" :on-click #(get-entries)} "Refresh"]]
+      [:div.row
+       [:ul (for [entry @entries]
+              ^{:key entry} (show-entry entry))]]]))
 
 (defn about-page []
   [:div.container
-   [:div.row
+    [:div.row
     [:div.col-md-12
-     [:img {:src (str js/context "/img/warning_clojure.png")}]]]])
-
-(defn home-page []
-  [:div.container
-   (when-let [docs (session/get :docs)]
-     [:div.row>div.col-sm-12
-      [:div {:dangerouslySetInnerHTML
-             {:__html (md->html docs)}}]])])
-
+      [:img {:src (str js/context "/img/warning_clojure.png")}]]]])
+      
 (def pages
   {:home #'home-page
    :about #'about-page})
@@ -70,17 +70,13 @@
               (secretary/dispatch! (.-token event))))
         (.setEnabled true)))
 
-;; -------------------------
-;; Initialize app
-(defn fetch-docs! []
-  (GET "/docs" {:handler #(session/put! :docs %)}))
-
 (defn mount-components []
-  (r/render [#'navbar] (.getElementById js/document "navbar"))
+;  (r/render [#'navbar] (.getElementById js/document "navbar"))
   (r/render [#'page] (.getElementById js/document "app")))
 
 (defn init! []
   (load-interceptors!)
-  (fetch-docs!)
+  (GET "/api/uuid" {:handler #(session/put! :user %)})
+  (get-entries)
   (hook-browser-navigation!)
   (mount-components))

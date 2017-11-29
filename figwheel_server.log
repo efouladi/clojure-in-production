@@ -1,0 +1,325 @@
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.935 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.686 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.715 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.924 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.696 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.645 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.369 seconds.[0m
+[36m----  Could not Read  src/cljs/clojure_in_production/core.cljs   line:34 ----[0m
+
+  [1m/Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 34, col 31] Invalid symbol: type:.[0m
+
+  [36m32[0m  [36m(defn post-message [][0m
+  [36m33[0m  [36m  [:div.input-group[0m
+  [33m34[0m  [1m   [:input.form-control {type: "text" placeholder: "Enter a message"}] [0m
+  [0m  [0m  [33m   /Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 34, col 31] Invalid symbol: type:.[0m
+  [36m35[0m  [36m   [:button.btn->btn-primary "Post"]]) [0m
+  [36m36[0m  [36m    [0m
+  [36m37[0m  [36m(defn about-page [][0m
+
+[36m----  Reader Error : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.693 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.751 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.899 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.589 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.518 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.415 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.538 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.456 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.372 seconds.[0m
+[36m----  Could not Read  src/cljs/clojure_in_production/core.cljs   line:35 ----[0m
+
+  [1m/Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 35, col 62] Unmatched delimiter ].[0m
+
+  [36m33[0m  [36m  [:div {:class "input-group row"}[0m
+  [36m34[0m  [36m   [:div.col-sm [:input.form-control {:type "text" :placeholder "Enter a message"}]]] [0m
+  [33m35[0m  [1m   [:div.col-sm [:button {:class "btn btn-primary"} "Post"]]]) [0m
+  [0m  [0m  [33m   /Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 35, col 62] Unmatched delimiter ].[0m
+  [36m36[0m  [36m    [0m
+  [36m37[0m  [36m(defn about-page [][0m
+  [36m38[0m  [36m  [:div.container[0m
+
+[36m----  Reader Error : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.487 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.579 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.926 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.997 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.905 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.655 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.562 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.828 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.748 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.553 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.721 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.666 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.458 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.423 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.587 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.438 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.398 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.434 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.399 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.576 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.767 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.561 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.452 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.535 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.653 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.194 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.966 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.025 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.698 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.996 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.694 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.452 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.463 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.428 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.424 seconds.[0m
+[36m----  Could not Read  src/cljs/clojure_in_production/core.cljs   line:40 ----[0m
+
+  [1m/Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 92] The map literal starting with :message on line 40 column 81 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m38[0m  [36m      [:div.form-group[0m
+  [36m39[0m  [36m      [:input.form-control {:type "text" :placeholder "Enter a message"}] [0m
+  [33m40[0m  [1m      [:button {:class "btn btn-primary" :on-click (POST {:format :json :params {:message }})} "Post"]]]))[0m
+  [0m  [0m  [33m      /Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 92] The map literal starting with :message on line 40 column 81 contains 1 form(s). Map literals must contain an even number of forms.[0m
+  [36m41[0m  [36m [0m
+  [36m42[0m  [36m(defn show-entry [entry][0m
+  [36m43[0m  [36m  [:li (:message entry) " - " (:user entry) " - " (:timestamp entry)])    [0m
+
+[36m----  Reader Error : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.341 seconds.[0m
+[36m----  Could not Read  src/cljs/clojure_in_production/core.cljs   line:40 ----[0m
+
+  [1m/Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 92] The map literal starting with :message on line 40 column 81 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m38[0m  [36m      [:div.form-group[0m
+  [36m39[0m  [36m      [:input.form-control {:type "text" :placeholder "Enter a message"}] [0m
+  [33m40[0m  [1m      [:button {:class "btn btn-primary" :on-click (POST {:format :json :params {:message }})} "Post"]]]))[0m
+  [0m  [0m  [33m      /Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 92] The map literal starting with :message on line 40 column 81 contains 1 form(s). Map literals must contain an even number of forms.[0m
+  [36m41[0m  [36m [0m
+  [36m42[0m  [36m(defn show-entry [entry][0m
+  [36m43[0m  [36m  [:li (:message entry) " - " (:user entry) " - " (:timestamp entry)])    [0m
+
+[36m----  Reader Error : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.429 seconds.[0m
+[36m----  Could not Read  src/cljs/clojure_in_production/core.cljs   line:40 ----[0m
+
+  [1m/Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 86] The map literal starting with :message on line 40 column 75 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m38[0m  [36m      [:div.form-group[0m
+  [36m39[0m  [36m      [:input.form-control {:type "text" :placeholder "Enter a message"}] [0m
+  [33m40[0m  [1m      [:button {:class "btn btn-primary" :on-click (POST {:format :params {:message }})} "Post"]]]))[0m
+  [0m  [0m  [33m      /Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 86] The map literal starting with :message on line 40 column 75 contains 1 form(s). Map literals must contain an even number of forms.[0m
+  [36m41[0m  [36m [0m
+  [36m42[0m  [36m(defn show-entry [entry][0m
+  [36m43[0m  [36m  [:li (:message entry) " - " (:user entry) " - " (:timestamp entry)])    [0m
+
+[36m----  Reader Error : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.329 seconds.[0m
+[36m----  Could not Read  src/cljs/clojure_in_production/core.cljs   line:40 ----[0m
+
+  [1m/Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 78] The map literal starting with :message on line 40 column 67 contains 1 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m38[0m  [36m      [:div.form-group[0m
+  [36m39[0m  [36m      [:input.form-control {:type "text" :placeholder "Enter a message"}] [0m
+  [33m40[0m  [1m      [:button {:class "btn btn-primary" :on-click (POST {:params {:message }})} "Post"]]]))[0m
+  [0m  [0m  [33m      /Users/shafo/Projects/clojure-in-production/src/cljs/clojure_in_production/core.cljs [line 40, col 78] The map literal starting with :message on line 40 column 67 contains 1 form(s). Map literals must contain an even number of forms.[0m
+  [36m41[0m  [36m [0m
+  [36m42[0m  [36m(defn show-entry [entry][0m
+  [36m43[0m  [36m  [:li (:message entry) " - " (:user entry) " - " (:timestamp entry)])    [0m
+
+[36m----  Reader Error : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.019 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.684 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.687 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.624 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.587 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.343 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.974 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.598 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.584 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.611 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.526 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.547 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.513 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.672 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.492 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.605 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/clojure_in_production/core.cljs   line:51  column:17  ----[0m
+
+  [1mWrong number of args (0) passed to clojure-in-production.core/post-message[0m
+
+  [36m48[0m  [36m(defn home-page [][0m
+  [36m49[0m  [36m  (let [m (r/atom "")][:div.container[0m
+  [36m50[0m  [36m      [:div.row [:h2 "Welcome " (session/get :user)]][0m
+  [33m51[0m  [1m      [:div.row (post-message)][0m
+  [0m  [0m  [33m                ^--- Wrong number of args (0) passed to clojure-in-production.core/post-message[0m
+  [36m52[0m  [36m      [:div.row [:button {:class "btn btn-primary" :on-click #(get-entries)} "Refresh"]][0m
+  [36m53[0m  [36m      [:div.row[0m
+  [36m54[0m  [36m       [:ul (for [entry @entries][0m
+  [36m55[0m  [36m              ^{:key entry} (show-entry entry))]]]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/clojure_in_production/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.578 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.54 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.774 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.48 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.508 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.442 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.462 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.516 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/clojure_in_production/core.js

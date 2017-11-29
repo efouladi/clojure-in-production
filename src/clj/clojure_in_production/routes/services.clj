@@ -3,7 +3,10 @@
             [compojure.api.sweet :refer :all]
             [schema.core :as s]))
 
-(defn get-enteries [] {:message "second entry"})
+(def entries (atom []))
+
+(defn get-timestamp [] (System/currentTimeMillis))
+;(defn get-timestamp [] (str (java.time.LocalDateTime/now)))
 
 (defapi service-routes
   {:swagger {:ui "/swagger-ui"
@@ -14,37 +17,15 @@
   
   (context "/api" []
     :tags ["guestbook"]
-
-    (GET "/plus" []
-      :return       Long
-      :query-params [x :- Long, {y :- Long 1}]
-      :summary      "x+y with query-parameters. y defaults to 1."
-      (ok (+ x y)))
-    
-    (GET "/enteries" []
+ 
+    (GET "/entries" []
       :summary      "all guestbook entries"
-      (ok (get-enteries)))
+      (ok @entries))
 
-    (POST "/minus" []
-      :return      Long
-      :body-params [x :- Long, y :- Long]
-      :summary     "x-y with body-parameters."
-      (ok (- x y)))
+    (GET "/uuid" []
+      :return String
+      (ok (str (java.util.UUID/randomUUID))))
 
-    (GET "/times/:x/:y" []
-      :return      Long
-      :path-params [x :- Long, y :- Long]
-      :summary     "x*y with path-parameters"
-      (ok (* x y)))
-
-    (POST "/divide" []
-      :return      Double
-      :form-params [x :- Long, y :- Long]
-      :summary     "x/y with form-parameters"
-      (ok (/ x y)))
-
-    (GET "/power" []
-      :return      Long
-      :header-params [x :- Long, y :- Long]
-      :summary     "x^y with header-parameters"
-      (ok (long (Math/pow x y))))))
+    (POST "/post" []
+      :body-params [message :- String, user :- String]
+      (ok (swap! entries conj {:message message :user user :timestamp (get-timestamp)})))))
